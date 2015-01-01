@@ -34,6 +34,7 @@ namespace TaskWithResult
                 })
             };
 
+            Console.WriteLine("sum the result");
             int sum = tasks.Sum(t => t.Result);
 
             Console.WriteLine("sum is {0}", sum);
