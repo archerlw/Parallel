@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.30110.0
+# Visual Studio Express 2013 for Windows Desktop
+VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataParallelism", "DataParallelism", "{07662AB4-AE4E-4FF0-9A9B-8F42F3B68482}"
 EndProject
@@ -24,6 +24,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.TaskWithResult", "TaskParallelism\TaskWithResult\2.TaskWithResult.csproj", "{5AB37511-C703-4C7D-A747-B4A1AD329924}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3.ContinueTask", "TaskParallelism\ContinueTask\3.ContinueTask.csproj", "{A381B34E-946F-4F10-AA76-D16CF56D85B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.ChildTask", "TaskParallelism\ChildTask\4.ChildTask.csproj", "{4C9BFB51-C720-4500-8D71-2FBB5C40B02D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5.CancelTask", "TaskParallelism\CancelTask\5.CancelTask.csproj", "{2E92F6EA-811C-4C15-9756-C0A8E3502897}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -125,6 +129,26 @@ Global
 		{A381B34E-946F-4F10-AA76-D16CF56D85B6}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{A381B34E-946F-4F10-AA76-D16CF56D85B6}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{A381B34E-946F-4F10-AA76-D16CF56D85B6}.Release|x86.ActiveCfg = Release|Any CPU
+		{4C9BFB51-C720-4500-8D71-2FBB5C40B02D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C9BFB51-C720-4500-8D71-2FBB5C40B02D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C9BFB51-C720-4500-8D71-2FBB5C40B02D}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{4C9BFB51-C720-4500-8D71-2FBB5C40B02D}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{4C9BFB51-C720-4500-8D71-2FBB5C40B02D}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{4C9BFB51-C720-4500-8D71-2FBB5C40B02D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C9BFB51-C720-4500-8D71-2FBB5C40B02D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C9BFB51-C720-4500-8D71-2FBB5C40B02D}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{4C9BFB51-C720-4500-8D71-2FBB5C40B02D}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{4C9BFB51-C720-4500-8D71-2FBB5C40B02D}.Release|x86.ActiveCfg = Release|Any CPU
+		{2E92F6EA-811C-4C15-9756-C0A8E3502897}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E92F6EA-811C-4C15-9756-C0A8E3502897}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E92F6EA-811C-4C15-9756-C0A8E3502897}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{2E92F6EA-811C-4C15-9756-C0A8E3502897}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{2E92F6EA-811C-4C15-9756-C0A8E3502897}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{2E92F6EA-811C-4C15-9756-C0A8E3502897}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E92F6EA-811C-4C15-9756-C0A8E3502897}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E92F6EA-811C-4C15-9756-C0A8E3502897}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{2E92F6EA-811C-4C15-9756-C0A8E3502897}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{2E92F6EA-811C-4C15-9756-C0A8E3502897}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -139,5 +163,7 @@ Global
 		{B18DC26F-DCC8-4FD8-B58F-EE19E9B6662C} = {7270AF2A-7BFB-4C2B-84F8-BA06F2B980F5}
 		{5AB37511-C703-4C7D-A747-B4A1AD329924} = {7270AF2A-7BFB-4C2B-84F8-BA06F2B980F5}
 		{A381B34E-946F-4F10-AA76-D16CF56D85B6} = {7270AF2A-7BFB-4C2B-84F8-BA06F2B980F5}
+		{4C9BFB51-C720-4500-8D71-2FBB5C40B02D} = {7270AF2A-7BFB-4C2B-84F8-BA06F2B980F5}
+		{2E92F6EA-811C-4C15-9756-C0A8E3502897} = {7270AF2A-7BFB-4C2B-84F8-BA06F2B980F5}
 	EndGlobalSection
 EndGlobal
